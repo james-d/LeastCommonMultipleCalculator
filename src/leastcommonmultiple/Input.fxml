@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.geometry.Insets?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml" hgap="5" vgap="5" fx:controller="leastcommonmultiple.InputController">
+	<Label text="x:" >
+		<GridPane.columnIndex>0</GridPane.columnIndex>
+		<GridPane.rowIndex>0</GridPane.rowIndex>
+	</Label>
+	<Label text="y:" >
+		<GridPane.columnIndex>0</GridPane.columnIndex>
+		<GridPane.rowIndex>1</GridPane.rowIndex>
+	</Label>
+	<TextField text="1" fx:id="xTextField">
+		<GridPane.columnIndex>1</GridPane.columnIndex>
+		<GridPane.rowIndex>0</GridPane.rowIndex>	
+	</TextField>
+	<TextField text="1" fx:id="yTextField">
+		<GridPane.columnIndex>1</GridPane.columnIndex>
+		<GridPane.rowIndex>1</GridPane.rowIndex>	
+	</TextField>
+	<columnConstraints>
+		<ColumnConstraints halignment="RIGHT" hgrow="NEVER"/>
+		<ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" />
+	</columnConstraints>
+	<padding>
+		<Insets top="5" bottom="5" left="5" right="5"/>
+	</padding>
+</GridPane>
+

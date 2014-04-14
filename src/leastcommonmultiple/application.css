@@ -1,0 +1,9 @@
+.display {
+	-fx-background-color: antiquewhite ;
+}
+.main {
+	-fx-background-color: cornsilk ;
+}
+.main > .title {
+	-fx-font: bold 18pt verdana ;
+}

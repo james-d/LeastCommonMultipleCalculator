@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+
+<HBox xmlns:fx="http://javafx.com/fxml" fx:controller="leastcommonmultiple.DisplayController" alignment="CENTER_LEFT"  >
+	<Label fx:id="display" >
+		<HBox.hgrow>ALWAYS</HBox.hgrow>
+	</Label>
+</HBox>
+

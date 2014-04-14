@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="leastcommonmultiple.MainController"
+	styleClass="main" alignment="CENTER">
+	<Label text="Least common multiple calculator" wrapText="true" styleClass="title" textAlignment="CENTER">
+		<VBox.vgrow>NEVER</VBox.vgrow>
+	</Label>
+	<HBox fillHeight="false" alignment="CENTER">
+		<fx:include source="Input.fxml" fx:id="input" styleClass="input">
+			<HBox.hgrow>NEVER</HBox.hgrow>
+		</fx:include>
+		<fx:include source="Display.fxml" fx:id="display"
+			styleClass="display">
+			<HBox.hgrow>ALWAYS</HBox.hgrow>
+		</fx:include>
+		<VBox.vgrow>ALWAYS</VBox.vgrow>
+	</HBox>
+</VBox>
